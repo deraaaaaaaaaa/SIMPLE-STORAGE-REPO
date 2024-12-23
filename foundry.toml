@@ -1,6 +1,10 @@
-[profile.default]
-src = "src"
-out = "out"
-libs = ["lib"]
+[default]
+src = "./src"
+out = "./out"
+libs = "./lib"
+test = "./test"
 
-# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+[rpc_endpoints]
+sepolia = "${https://sepolia.infura.io/v3/139c21648a054fe9afc4bf9b880cb9a7}"
+[verifier]
+etherscan_api_key ="QVCDC3V98FBX3ISY1WAZ7DXF42857UM3WT"
